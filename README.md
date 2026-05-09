@@ -1,6 +1,6 @@
-#Final CS-215 Project | Spr'26 
+Final CS-215 Project | Spr'26 
 
-###Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity in Opensource Chemical Textbooks in Python
+Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity in Opensource Chemical Textbooks in Python
 
 **Abstract**
 
