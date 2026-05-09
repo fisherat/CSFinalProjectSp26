@@ -6,9 +6,9 @@ Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity i
 
 We report a substantial difference in the length by word count and number of visual aids used in the online, open source Chem Libretext Bookshelves between chapters, demonstrating how challenging it can be for students to study from home or catch up on their classes using online tools for upper-level courses. Through webscraping and subsequent NLP analysis we illustrate a 3D cluster/topographical map of the strengths and weaknesses of course-critical materials for [General Chemistry](https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)), [Organic Chemistry](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)), [Analytical Chemistry](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_(OpenStax)), [Physical & Theoretical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)) and [Inorganic Chemistry](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)) by their chapter number from the Libretext bookshelves. Unfortunately, due to the lack of a Libretext or Opensource flagship bookshelf for Biochemistry and Environmental Chemistry, we were unable to suitably include them in our analyses. Further work should target these for inclusion, as well as better optimize the webscraping tool as runtimes can be challenging, depending on web service quality.
 
-  Fig 1).  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot (1).html" width="100%" height="500px" frameborder="0"></iframe>
+  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot.html" width="100%" height="500px" frameborder="0"></iframe>
 
-  Topographical map of the webscraped word counts, figure counts and general difficulty of the course material (PCA of NLP complexity and the course's mean ACS exam score).
+   Fig 1). Topographical map of the webscraped word counts, figure counts and general difficulty of the course material (PCA of NLP complexity and the course's mean ACS exam score).
 
 **Purpose** 
 
@@ -16,27 +16,41 @@ As a graduating senior in the Chemistry Department of Whitman College, I underst
 
 **Results and Analysis**
 
-To begin, we started with webscraping of simply the word and figure counts of our webpages' body of text, aiming to disregard all other links or captions embedded in the pages' HTML. Following this, we ran NLP (natural language processing) to better illustrate the complexity of the terminology while simultaneously sanity-checking our word counts (Table 1). Thanks to the University of Wisconsin - Madisons' publication of their ACS exam score statistics, we were able to find a suitable numeric model of the course's "felt" complexity for the students, with which we ran PCA (principal component analysis) to linearize our models of course difficulty and better depict their variance (Fig 2). Now faced with a more robust definition of difficulty, our next challenge was in visualizing the discrepancies found in our initial research, beginning with a simple line plot of the chapter numbers and how that impacts the word count and our complexity matrix (Fig 3).
+To begin, we started with webscraping of simply the word and figure counts of our webpages' body of text, aiming to disregard all other links or captions embedded in the pages' HTML. Following this, we ran NLP (natural language processing) to better illustrate the complexity of the terminology while simultaneously sanity-checking our word counts (Table 1). Thanks to the University of Wisconsin @ Madisons publication of their ACS exam score statistics, we were able to find a suitable numeric model of the course's "felt" complexity for the students, with which we ran PCA (principal component analysis) to linearize our models of course difficulty and better depict their variance (Fig 2). Now faced with a more robust definition of difficulty, our next challenge was in visualizing the discrepancies found in our initial research, beginning with a simple line plot of the chapter numbers and how that impacts the word count and our complexity matrix (Fig 3).
 
-  Table 1). [Table of initially webscraped unit details for each specialty, their NLP complexity scores, mean and median ACS scores]
+  ![Table of initially webscraped unit details for each specialty, their NLP complexity scores, mean and median ACS scores](/assets/graphics/table1.png)
+  
+  Table 1). Table of initially webscraped unit details for each specialty, their NLP complexity scores, mean and median ACS scores
 
-  Fig 2). [PCA of NLP and ACS scores in the assembly of our Net Difficulty Matrix](/assets/graphics/PCA.png)
+  ![PCA of NLP and ACS scores in the assembly of our Net Difficulty Matrix](/assets/graphics/PCA.png)
+  
+  Fig 2). PCA of NLP and ACS scores in the assembly of our Net Difficulty Matrix
 
-  Fig 3). [Line plot of chapter mean word counts and mean resultant difficulties v.s. chapter number, regardless of specialty](/assets/graphics/chapter_trends_2.png)
+  ![Line plot of chapter mean word counts and mean resultant difficulties v.s. chapter number, regardless of specialty](/assets/graphics/chapter_trends_2.png)
+  
+  Fig 3). Line plot of chapter mean word counts and mean resultant difficulties v.s. chapter number, regardless of specialty
 
 The overall downward trend, although populated with a number of relative maxima, certainly does reflect my experience in frantically searching for better answers to our innumerable questions throughout my tenure as an undergraduate chemist. Now, for our project deliverables, we elected to incorporate 3D visualizations for meaningfully "new" tools. For this specific use-case we believed at first that cluster analysis would be perfect or at least interesting, possibly helping determine differences in trends or differences between courses (Fig. 4). 
 
-  Fig 4). [Initial cluster optimization and subsequent analysis of chapter details, without the inclusion of the PCA]
+  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/libretexts_clusters_wk14.html" width="100%" height="500px" frameborder="0"></iframe>
+  
+  Fig 4). Initial cluster optimization and subsequent analysis of chapter details, without the inclusion of the PCA
 
-  Fig 5). [Initial cluster optimization and subsequent analysis of chapter details, with the inclusion of the PCA]
+  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/new_clusters.html" width="100%" height="500px" frameborder="0"></iframe>
+  
+  Fig 5). Initial cluster optimization and subsequent analysis of chapter details, with the inclusion of the PCA
 
 The resulting graphics, however illustrated immense overlap and no immediately obvious trends, whereby the majority of trends are lost in the 1077 different units plotted among the map 4 lines from the mean ACS score/PCA analysis. We further struggled with visualizing the general unit details and course-difficulty to the chapter number, using PCA 1 (of NLP complexity and mean ACS score) and PCA 2 (their contrast) with the hue set to chapter number (Fig. 6). 
 
-  Fig 6). [Cluster analysis of chapter details and PCA, using chapter number as a differentiator]
+  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/chapter_hue.html" width="100%" height="500px" frameborder="0"></iframe>
+  
+  Fig 6). Cluster analysis of chapter details and PCA, using chapter number as a differentiator
 
 This helped a little bit more, guiding us in the right direction that there are some definite outliers within the first few chapters, whereby they recieved substantially more support in terms of written text and figures, however the overlapping bulk of the graphic is still largely obscured by the large number of data points. Upon further consideration, with the information gathered in our line plot (Fig. 2), we found that including NLP and word count subsequently was unnecessary, as complexity is built on the wordcount in the first place. Able to now disregard PCA 2 as unnecessary, we sought to fit the word count and difficulty perpendicular to one another, using the arithemtic means for the chapter number in each direction to better reflect overall trends and minimize pollution and visual overpopulation (Fig. 7). 
 
-  Fig 7). <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot (1).html" width="100%" height="500px" frameborder="0"></iframe>
+  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot.html" width="100%" height="500px" frameborder="0"></iframe>
+ 
+  Fig 7). Topographical cluster map of word & figure counts, course difficulty and the chapter number, illustrating an overall downward trend in terms of course-critical support in higher chapters. 
 
 **Conclusions**
 
