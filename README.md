@@ -6,7 +6,7 @@ Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity i
 
 We report a substantial difference in the length by word count and number of visual aids used in the online, open source Chem Libretext Bookshelves between chapters, demonstrating how challenging it can be for students to study from home or catch up on their classes using online tools for upper-level courses. Through webscraping and subsequent NLP analysis we illustrate a 3D cluster/topographical map of the strengths and weaknesses of course-critical materials for [General Chemistry](https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)), [Organic Chemistry](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)), [Analytical Chemistry](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_(OpenStax)), [Physical & Theoretical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)) and [Inorganic Chemistry](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)) by their chapter number from the Libretext bookshelves. Unfortunately, due to the lack of a Libretext or Opensource flagship bookshelf for Biochemistry and Environmental Chemistry, we were unable to suitably include them in our analyses. Further work should target these for inclusion, as well as better optimize the webscraping tool as runtimes can be challenging, depending on web service quality.
 
-  Fig 1).  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot.html" width="100%" height="500px" frameborder="0"></iframe>
+  Fig 1).  <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot (1).html" width="100%" height="500px" frameborder="0"></iframe>
 
   Topographical map of the webscraped word counts, figure counts and general difficulty of the course material (PCA of NLP complexity and the course's mean ACS exam score).
 
@@ -20,9 +20,9 @@ To begin, we started with webscraping of simply the word and figure counts of ou
 
   Table 1). [Table of initially webscraped unit details for each specialty, their NLP complexity scores, mean and median ACS scores]
 
-  Fig 2). [PCA of NLP and ACS scores in the assembly of our Net Difficulty Matrix]
+  Fig 2). [PCA of NLP and ACS scores in the assembly of our Net Difficulty Matrix](/assets/graphics/PCA.png)
 
-  Fig 3). [Line plot of chapter mean word counts and mean resultant difficulties v.s. chapter number, regardless of specialty]
+  Fig 3). [Line plot of chapter mean word counts and mean resultant difficulties v.s. chapter number, regardless of specialty](/assets/graphics/chapter_trends_2.png)
 
 The overall downward trend, although populated with a number of relative maxima, certainly does reflect my experience in frantically searching for better answers to our innumerable questions throughout my tenure as an undergraduate chemist. Now, for our project deliverables, we elected to incorporate 3D visualizations for meaningfully "new" tools. For this specific use-case we believed at first that cluster analysis would be perfect or at least interesting, possibly helping determine differences in trends or differences between courses (Fig. 4). 
 
@@ -36,7 +36,7 @@ The resulting graphics, however illustrated immense overlap and no immediately o
 
 This helped a little bit more, guiding us in the right direction that there are some definite outliers within the first few chapters, whereby they recieved substantially more support in terms of written text and figures, however the overlapping bulk of the graphic is still largely obscured by the large number of data points. Upon further consideration, with the information gathered in our line plot (Fig. 2), we found that including NLP and word count subsequently was unnecessary, as complexity is built on the wordcount in the first place. Able to now disregard PCA 2 as unnecessary, we sought to fit the word count and difficulty perpendicular to one another, using the arithemtic means for the chapter number in each direction to better reflect overall trends and minimize pollution and visual overpopulation (Fig. 7). 
 
-  Fig #). ![Chapter Trends Line plot](/assets/graphics/chapter_trends_2.png)
+  Fig 7). <iframe src="https://fisherat.github.io/portfolio/assets/graphics/topographical_plot (1).html" width="100%" height="500px" frameborder="0"></iframe>
 
 **Conclusions**
 
