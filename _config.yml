@@ -2,10 +2,4 @@ title: Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Ine
 logo: assets/graphics/topographical_plot_2.html
 description: Fig 1). Topographical map of the webscraped word counts, figure counts and general difficulty of the course material (PCA of NLP complexity and the course’s mean ACS exam score).
 author: Andrew Fisher
-  email: fishera@whitman.edu
-  Github: fisherat
-markdown: kramdown
 theme: jekyll-theme-cayman
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag 
