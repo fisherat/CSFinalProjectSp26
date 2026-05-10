@@ -2,11 +2,7 @@ Final CS-215 Project | Spr'26
 
 Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity in Opensource Chemical Textbooks in Python
 
-Webscraping Notebook : [![Webscraping Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_Webscraping.ipynb)
-| [.csv File for Analysis](/libretexts_data.csv) | 
-PCA & Cluster Analysis : [![PCA & Cluster Analysis Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://github.com/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_ChemLibretextsClusterAnalysis.ipynb)
-
-[Open My Notebook in Colab](https://colab.research.google.com/github/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_Webscraping.ipynb)
+[Webscraping Notebook](https://colab.research.google.com/github/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_Webscraping.ipynb) | [.csv File for Analysis](/libretexts_data.csv) | [PCA & Cluster Analysis Notebook](https://colab.research.google.com/github/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_ChemLibretextsClusterAnalysis.ipynb)
 
 **Abstract**
 
