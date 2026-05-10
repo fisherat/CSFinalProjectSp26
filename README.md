@@ -72,7 +72,7 @@ We confirmed the hypothesis that the online, opensource Chem Libretext textbook 
 
 8). NLP Collective. Stack Overflow. https://stackoverflow.com/collectives/nlp (accessed 2026-05-09).
 
-9). What Is Principal Component Analysis (PCA)? | IBM. https://www.ibm.com/think/topics/principal-component-analysis (accessed 2026-05-09).
+9). What Is Principal Component Analysis (PCA)? IBM. https://www.ibm.com/think/topics/principal-component-analysis (accessed 2026-05-09).
 
 10). Principal Component Analysis with Python. GeeksforGeeks. https://www.geeksforgeeks.org/data-analysis/principal-component-analysis-with-python/ (accessed 2026-05-09).
 
