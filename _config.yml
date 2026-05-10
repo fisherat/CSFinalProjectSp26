@@ -1,5 +1,4 @@
 title: Cluster & PCA Analyses of Chem Libretexts Bookshelves, an Analysis of Inequity in Opensource Chemical Textbooks in Python
-logo: assets/graphics/topographical_plot_2.html
-description: Fig 1). Topographical map of the webscraped word counts, figure counts and general difficulty of the course material (PCA of NLP complexity and the course’s mean ACS exam score).
+description: [By Andrew Fisher](https://fisherat.github.io/portfolio/) | [Webscraping Notebook](https://colab.research.google.com/github/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_Webscraping.ipynb) | [.csv File for Analysis](/libretexts_data.csv) | [PCA & Cluster Analysis Notebook](https://colab.research.google.com/github/fisherat/CSFinalProjectSp26/blob/main/fishera_FD_CSFinalPrj_ChemLibretextsClusterAnalysis.ipynb) | [Visit the repository](https://github.com/fisherat/CSFinalProjectSp26)
 author: Andrew Fisher
 theme: jekyll-theme-cayman
