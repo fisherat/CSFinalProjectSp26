@@ -2,7 +2,7 @@
 
 **Abstract**
 
-We report a substantial difference in the length by word count and number of visual aids used in the online, open source Chem Libretext Bookshelves between chapters, demonstrating how challenging it can be for students to study from home or catch up on their classes using online tools for upper-level courses. Through webscraping and subsequent NLP analysis we illustrate a 3D cluster/topographical map of the strengths and weaknesses of course-critical materials for [General Chemistry](https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)), [Organic Chemistry](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)), [Analytical Chemistry](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_(OpenStax)), [Physical & Theoretical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)) and [Inorganic Chemistry](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)) by their chapter number from the Libretext bookshelves. Unfortunately, due to the lack of a Libretext or Opensource flagship bookshelf for Biochemistry and Environmental Chemistry, we were unable to suitably include them in our analyses. Further work should target these for inclusion, as well as better optimize the webscraping tool as runtimes can be challenging, depending on web service quality.
+We report a substantial difference in the length by word count and number of visual aids used in the online, open source Chem Libretext Bookshelves between chapters, demonstrating how challenging it can be for students to study from home or catch up on their classes using online tools for upper-level courses. Through webscraping and subsequent NLP analysis we illustrate a 3D cluster/topographical map of the strengths and weaknesses of course-critical materials for [General Chemistry](https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax)), [Organic Chemistry](https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax)), [Analytical Chemistry](https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Instrumental_Analysis_(LibreTexts), [Physical & Theoretical Chemistry](https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts)) and [Inorganic Chemistry](https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts)) by their chapter number from the Libretext bookshelves. Unfortunately, due to the lack of a Libretext or Opensource flagship bookshelf for Biochemistry and Environmental Chemistry, we were unable to suitably include them in our analyses. Further work should target these for inclusion, as well as better optimize the webscraping tool as runtimes can be challenging, depending on web service quality.
 
   <iframe src="https://fisherat.github.io/CSFinalProjectSp26/assets/graphics/topographical_plot_2.html" width="100%" height="500px" frameborder="0"></iframe>
 
@@ -53,3 +53,35 @@ This helped a little bit more, guiding us in the right direction that there are 
 **Conclusions**
 
 We confirmed the hypothesis that the online, opensource Chem Libretext textbook showed diminishing levels of written and visual support for higher chapter numbers in their textbooks, illustrating a further lack of attention furthering the education of students engaged in the upper levels of Chemistry. This work has demonstrated the ongoing inequity of opportunity, seemingly embedded in the fundamental sciences as a whole, as the exclusion of students who are unable to catch up or get ahead via online tools is immensely challenging to those willing to put in the work but cannot manage the time required to learn. Imagine a working student for a moment, who is then prevented from accessing higher levels of education or even asking fundamental questions because those answers are simply not written for them with easily accessible tools they can afford. If we're going to make an accessibility tool for students or enthusiasts to learn from for free, we need to make sure that those tools are comprehensive and comprehensable. Science is so incredible in that its by everyone, in everyone and should be for everyone, regardless of their stake or interest.
+
+**Bibliography**
+
+1). Chemistry 2e (OpenStax). Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/General_Chemistry/Chemistry_2e_(OpenStax) (accessed 2026-05-09).
+
+2). Organic Chemistry (OpenStax). Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_(OpenStax) (accessed 2026-05-09).
+
+3). Inorganic Chemistry (LibreTexts). Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Inorganic_Chemistry/Inorganic_Chemistry_(LibreTexts) (accessed 2026-05-09).
+
+4). Instrumental Analysis (LibreTexts). Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Instrumental_Analysis_(LibreTexts) (accessed 2026-05-09).
+
+5). Physical Chemistry (LibreText). Chemistry LibreTexts. https://chem.libretexts.org/Bookshelves/Physical_and_Theoretical_Chemistry_Textbook_Maps/Physical_Chemistry_(LibreTexts) (accessed 2026-05-09).
+
+6). National Norms. ACS Exams. https://uwm.edu/acs-exams/instructors/exam-statistics/national-norms/ (accessed 2026-05-09).
+
+7). Vdr, C. [NLP] Basics: Measuring The Linguistic Complexity of Text. TDS Archive. https://medium.com/data-science/linguistic-complexity-measures-for-text-nlp-e4bf664bd660 (accessed 2026-05-09).
+
+8). NLP Collective. Stack Overflow. https://stackoverflow.com/collectives/nlp (accessed 2026-05-09).
+
+9). What Is Principal Component Analysis (PCA)? | IBM. https://www.ibm.com/think/topics/principal-component-analysis (accessed 2026-05-09).
+
+10). Principal Component Analysis with Python. GeeksforGeeks. https://www.geeksforgeeks.org/data-analysis/principal-component-analysis-with-python/ (accessed 2026-05-09).
+
+11). doug. Answer to “Principal Component Analysis (PCA) in Python.” Stack Overflow. https://stackoverflow.com/a/13224592 (accessed 2026-05-09).
+
+
+
+
+
+
+
+
